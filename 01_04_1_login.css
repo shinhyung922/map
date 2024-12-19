@@ -1,0 +1,93 @@
+/* 전체 배경 스타일 */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* 로그인 컨테이너 */
+.login-container {
+    background-color: #ffffff;
+    width: 550px;
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+/* 제목 스타일 */
+h4 {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+    text-align: center;
+    
+}
+
+/* 입력 필드 스타일 */
+input[type="text"],
+input[type="password"] {
+    width: 60%;
+    padding: 17px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 1rem;
+    outline: none;
+   
+}
+
+input[type="text"]::placeholder,
+input[type="password"]::placeholder {
+    color: #aaa;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus {
+    border-color: #6200ea;
+}
+
+
+
+/* 로그인 버튼 */
+.login-btn {
+    width: 60%;
+    padding: 17px;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: #4caf50; /* 초록색 */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.login-btn:hover {
+    background-color: #45a049; /* hover 시 약간 어두운 초록색  */
+}
+
+/* 회원가입 버튼 */
+.join-btn {
+    width: 60%;
+    padding: 17px;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #ffffff; /* 초록색 */
+    background-color:#4caf50;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.join-btn:hover {
+    background-color: #45a049; /* 초록색 배경 */
+   
+}

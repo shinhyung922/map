@@ -1,0 +1,164 @@
+@charset "UTF-8";
+/* 전체 배경 스타일 */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* 회원가입 컨테이너 */
+.join-container {
+    background-color: #ffffff;
+    width: 500px;
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+/* 제목 스타일 */
+.join-container h4 {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+    text-align: center;
+    
+}
+
+/* 폼 그룹 스타일 */
+.form-group {
+    display: flex;
+    flex-direction: column; /* 가로로 정렬 */
+    align-items: center; /* 라벨과 입력 필드가 같은 높이로 정렬 */
+    margin-bottom: 20px;
+    gap: 10px; /* 라벨과 입력 필드 사이 간격 */
+}
+
+.form-group label {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #333;
+    width: 90px; /* 고정 너비로 라벨 정렬 */
+    text-align: center; /* 텍스트 오른쪽 정렬 */
+    margin-bottom: 0; /* 라벨 아래 간격 제거 */
+}
+
+.address-group {
+    display: flex;
+    flex-direction: column; /* 각 입력 필드를 세로로 배치 */
+    gap: 10px; /* 입력 필드 간 간격 */
+    width: 100%; /* 주소 입력 필드와 버튼의 너비를 컨테이너에 맞춤 */
+}
+
+/* 우편번호와 검색 버튼 한 줄 배치 */
+.input-group {
+    display: flex;
+    gap: 10px; /* 우편번호와 검색 버튼 간격 */
+    width: 100%;
+}
+
+.input-group input[type="text"] {
+    flex: 1; /* 우편번호 입력 필드 너비 자동 조정 */
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+    outline: none;
+}
+
+.input-group .btn {
+    padding: 10px 15px;
+    font-size: 1rem;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    white-space: nowrap; /* 텍스트가 줄 바꿈되지 않도록 설정 */
+}
+
+.input-group .btn:hover {
+    background-color: #45a049;
+}
+
+.address-group input[type="text"] {
+    width: 60%;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+    outline: none;
+}
+
+
+.form-group input,
+.form-group select {
+	flex: 1;
+    width: 40%;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    outline: none;
+   
+}
+
+.form-group input:focus,
+.form-group select:focus {
+    border-color: #6200ea;
+}
+
+/* 버튼 스타일 */
+.btn {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.btn:hover {
+    background-color: #45a049;
+}
+
+/* 제출 버튼 스타일 */
+.submit-btn {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    width: 80%;
+    margin: 0 auto; /* 버튼을 수평 가운데로 정렬 */
+    display: block; 
+}
+
+.submit-btn:hover {
+    background-color: #45a049;
+}
+
+/* 인풋 그룹 스타일 */
+.input-group {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    width:50%;
+}
+
+.radio-group input {
+    margin-right: 5px;
+}
+
